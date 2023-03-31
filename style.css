@@ -770,6 +770,12 @@ body.dark-theme{
     bottom: 3rem;
 }
 
+.name{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: var(--big-font-size);
+}
 /* =============== MEDIA Queries ================== */
 
 @media screen and (min-width: 1152px) {
